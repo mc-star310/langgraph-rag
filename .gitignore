@@ -1,0 +1,15 @@
+.venv/
+venv/
+.idea/
+__pycache__/
+*.pyc
+.env
+*.log
+data/
+# 保留目录结构但忽略用户文档（避免把内部语料误提交）
+corpus/*
+!corpus/.gitkeep
+# 个人学习笔记与早期教学 demo（不随作品集公开）
+学习地图.md
+项目精读.md
+agent.py
